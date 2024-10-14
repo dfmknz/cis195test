@@ -1,0 +1,225 @@
+/* Drew's CIS195 CSS for Lab3 */
+
+body{
+	background-color: rgba(0, 0, 0, 0.808);
+    color: aquamarine;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+	margin: 23px 0;
+}
+
+header h1{
+	text-align: center;
+}
+
+h1{
+	background-color: rgba(137, 43, 226, 0.438);
+}
+
+h2{
+	color: coral;
+}
+
+h3{
+	color: coral;
+}
+
+nav{
+	border-top: 5px ridge #0000002c;
+	border-bottom: 5px ridge #0000002c;
+	padding: 6px;
+	background-color: rgba(127, 255, 212, 0.666);
+}
+nav a{
+	border: rgba(0, 0, 0, 0.295) 6px outset;
+	border-radius: 4%;
+	padding: 1px 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000a9;
+    font-style: italic;
+}
+
+a:hover{
+    color: blueviolet;
+}
+/*
+a:visited{
+	color: #183258;
+}
+*/
+
+p{
+	margin: 2% 0%;
+}
+
+p::first-letter{
+	font-size: 2em;
+	letter-spacing: 0.1em;
+}
+
+hr{
+	visibility: hidden; /* ..but keeps space in layout if needed */
+}
+
+main{
+	margin: 2% 6%;
+	background-color: rgba(245, 245, 245, 0.034);
+	border-radius: 1%;
+}
+
+section{
+	padding: 1%;
+}
+
+article{
+	margin: 0%;
+	border: none;
+	border-right: 13px outset rgba(94, 94, 94, 0.212);
+	border-top: 13px outset rgba(94, 94, 94, 0.212);
+	border-radius: 9px 0 9px 0;
+}
+
+aside{
+	float: right;
+	box-sizing: border-box;
+	width: 25%;
+	border: inset #36363660 4px;
+	border-radius: 8%;
+	padding: 0px 6px;
+	margin: 1px 3px;
+	color: coral;
+}
+
+aside h3{
+	color: blueviolet;
+}
+
+.clr_fix{
+    clear: both; /* clears all floats above the element */
+}
+
+blockquote{
+	width: 50%;
+}
+
+blockquote p::first-letter{
+	font-size: 1em;
+	letter-spacing: normal;
+}
+
+.blockquote .blockquote-footer{
+	background-color: blueviolet;
+	color: coral;
+	width: 200px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+table{
+	border: 1px solid aquamarine;
+}
+
+tr{
+	color: coral;
+}
+
+th{
+	border: 1px solid aquamarine;
+	padding: 3px;
+}
+
+td{
+	border: 1px solid aquamarine;
+	padding: 3px
+}
+
+ol{
+	border: double aquamarine;
+	width: 150px;
+	text-align: left;
+	list-style-position: inside; /* Makes the numbers part of the text */
+	padding: 5px 10px;
+	margin: 20px;
+}
+
+ul{
+	padding: 1%;
+}
+
+li{
+	color: coral;
+}
+
+dl{
+	margin: 4%;
+}
+
+dt{
+	color: coral;
+	padding: 1% 0;
+}
+
+dd{
+	padding: 0 2%;
+}
+
+#sum{
+	background-color: rgba(0, 0, 0, 0.13);
+	padding: 0.5%;
+	border-radius: 0 30% 30% 0;
+	width: 20%;
+}
+
+#sum p::first-letter{
+	font-size: 1em;
+	letter-spacing: normal;
+}
+
+details{
+	margin: 2%;
+}
+
+summary{
+	text-decoration: underline;
+	color: blueviolet;
+}
+
+footer{
+	border-top: 5px ridge #0000002c;
+	border-bottom: 5px ridge #0000002c;
+	padding: 6px;
+	background-color: rgba(127, 255, 212, 0.666);
+	color: rgba(0, 0, 0, 0.705);
+	position: relative;
+}
+
+footer a{
+	color: aquamarine;
+	font-style: oblique;
+}
+
+footer a:hover{
+    color: coral;
+}
+
+footer #email{
+	position: absolute;
+	left: 43%;
+	top: 43%;
+	text-align: center;
+	white-space: nowrap; /* Prevent wrapping */
+	background-color: rgba(0, 0, 0, 0.356);
+	width: 90px;
+	border-radius: 9%;
+	border: rgba(73, 73, 73, 0.253) 3px solid;
+	margin: 5.5px;
+}
+
+address{
+	text-decoration: underline;
+}
