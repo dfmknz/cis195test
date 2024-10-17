@@ -225,9 +225,22 @@ footer #copy{
 }
 
 @media (max-width: 600px){
-	footer #email{
-		position: static;
+
+	footer{
+		padding-bottom: 18px;
 	}
+
+	footer #email{
+		position: absolute;
+		float: right;
+		left: 60%;
+	}
+
+	footer address{
+		float: left;
+	}
+
+
 }
 
 address{
