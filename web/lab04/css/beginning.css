@@ -220,14 +220,16 @@ footer #email{
 	margin: 5.5px 7%;
 }
 
-footer #copy{
-	position: relative;
-}
+
 
 @media (max-width: 600px){
 
 	footer{
 		padding-bottom: 18px;
+	}
+
+	footer #copy{
+		float: left;
 	}
 
 	footer #email{
