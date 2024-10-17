@@ -236,6 +236,7 @@ footer #email{
 		position: absolute;
 		float: right;
 		left: 60%;
+		box-sizing: border-box;
 	}
 
 	footer address{
